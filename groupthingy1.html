@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet - Group Chat for Everyone</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #2b2d42;
+        }
+
+        .logo span {
+            color: #4ea8de;
+            margin-right: 4px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px 60px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #111111;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #666666;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn-primary {
+            background-color: #4ea8de;
+            color: #ffffff;
+        }
+
+        .btn-secondary {
+            background-color: #9d4edd;
+            color: #ffffff;
+        }
+
+        .grid-section {
+            padding: 40px 0;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+
+        .grid-item {
+            background-color: #f0f0f0;
+            height: 180px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #888888;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .features {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 80px auto;
+        }
+
+        .tagline {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            color: #4ea8de;
+            font-weight: bold;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #111111;
+            margin-bottom: 16px;
+        }
+
+        .features p {
+            color: #666666;
+        }
+
+        @media (max-width: 768px) {
+            .image-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><span>•</span>meet</div>
+    </header>
+
+    <main class="container">
+        
+        <section class="hero">
+            <h1>Group Chat<br>for Everyone</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary">Download v1.3</a>
+                <a href="#" class="btn btn-secondary">What is it?</a>
+            </div>
+        </section>
+
+        <section class="grid-section">
+            <div class="image-grid">
+                <div class="grid-item">[ Placeholder 1 ]</div>
+                <div class="grid-item">[ Placeholder 2 ]</div>
+                <div class="grid-item">[ Placeholder 3 ]</div>
+                <div class="grid-item">[ Placeholder 4 ]</div>
+            </div>
+        </section>
+
+        <section class="features">
+            <span class="tagline">Built for modern use</span>
+            <h2>Smarter meetings, all in one place</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        </section>
+
+    </main>
+
+</body>
+</html>
